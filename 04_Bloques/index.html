@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bloques html</title>
+	<style>
+	.separado {
+		padding-left: 5rem}
+	.h2 {
+		display: block; font-size: 1.5rem;}
+	.footer {
+		border-top: 2px solid rgb(236, 114, 135);
+		margin-top: 1rem;
+		padding-top: 1rem;
+		}
+	.vertebrados {
+		list-style: decimal
+		}
+	dd {
+		display: inline;}
+	</style>
+</head>
+<body>
+    <header>
+    	<h1>Introducción al HTML. <span class="h2"> Uso de bloques</span></h1>
+    
+    </header>
+    <nav>
+        <hr>
+    </nav>
+    <main>
+        <article>
+            <h2>Titulo artículo 1</h2>
+            <pre>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                A perferendis excepturi ducimus!
+                Provident delectus cum sit quia enim earum ad blanditiis optio eveniet error.
+                Quis ut animi quibusdam repellendus blanditiis.</pre>
+            <p>Ducimus <span class="separado">esse quisquam</span> illo officiis dignissimos,<br>
+                dolor inventore voluptatibus eius magnam possimus ipsa. <br>
+                Blanditiis non minima vitae officiis, similique, <br>
+                nesciunt sunt sint deserunt distinctio molestias <br>
+                explicabo praesentium ratione, architecto amet!</p>
+            <p>Perferendis ad voluptatem ex laborum magnam quo et dolorem numquam accusantium officia ducimus adipisci vero ipsam eveniet, earum quas in beatae explicabo consequatur? Magnam asperiores ipsum at illum quam officia.</p>
+            <p>Assumenda, vitae! Magnam qui ullam ratione eaque eveniet repellendus pariatur consectetur ab sunt fuga enim tenetur, vitae dolor quisquam dolore suscipit cumque dicta fugit rem? Perspiciatis nobis labore incidunt sunt.</p>
+        </article>
+        
+        <article>
+			<h2>Uso de listas</h2>
+			<h3>Tipos de vertebrados</h3>
+			<ol class="vertebrados">
+				<li>Peces</li>
+				<li>Reptiles
+					<ol>
+						<li>Tortugas</li>
+						<li>Cocodrilos</li>
+						<li>Lagartos</li>
+						<li>Serpientes</li>
+					</ol>
+				</li>
+
+			</ol>
+			<p>Finalmente están los vertebrados más evolucionados</p>
+			<ol start="3">
+				<li>Aves
+					<ul>
+						<li>Rapaces</li>
+						<li>Pajaros</li>
+					</ul>
+				</li>
+				<li>Mamíferos</li>
+			</ol>
+			
+			<h3>Definiciones</h3>
+			<dl>
+				<dt>HTML:</dt> <dd>lenguaje de marcas</dd>
+				<dt>CSS:</dt> <dd>lenguaje de estilos</dd>
+				<dt>JS:</dt> <dd> lenguaje de scripts</dd>
+			</dl>
+
+		</article>
+		<article>
+			<h2>Desplegable</h2>
+			<details>
+				<summary>Diseño Web</summary>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab magni quae, ipsa voluptatibus ea cupiditate illum nam totam beatae aliquam maxime animi consectetur voluptas ut dolorem vero recusandae laboriosam harum.</p>
+				
+
+			</details>
+
+
+
+
+		</article>
+    </main>
+    <aside></aside>
+
+
+    <footer>
+		<address class="footer">Ana Belén</address>
+		<p>&copy; Ana Belén 2018</p>
+
+	</footer>
+    
+</body>
+</html>
