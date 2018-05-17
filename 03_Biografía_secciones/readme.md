@@ -1,6 +1,24 @@
 # Elementos de "sectioning" según el estandar HTML5 #
 
-body
+https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#sections
+
+4.3.1. The body element
+
+4.3.2.The article element
+
+4.3.3.The section element
+
+4.3.4. The nav element
+
+4.3.5 The aside element
+
+4.3.6 The h1, h2, h3, h4, h5, and h6 elements
+
+4.3.7 The header element
+
+4.3.8 The footer element
+
+4.3.9 The address element
 
 ## article ##
 
