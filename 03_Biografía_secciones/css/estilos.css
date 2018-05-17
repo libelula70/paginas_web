@@ -1,3 +1,11 @@
+/* Estilos básicos */
+h1 {font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem}
+
+.menu {list-style: none;}
+
+
 h1 {color: chocolate}
 .verde {color: forestgreen}
 .rosa {color: fuchsia}
