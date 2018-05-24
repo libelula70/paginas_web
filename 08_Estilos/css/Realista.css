@@ -1,0 +1,31 @@
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: maroon;
+    padding: 2rem;
+}
+
+main p {
+    width: 15%;
+    float: left;
+    margin-left: 2rem;
+}
+/*main p:first-child {
+    margin-left: 2rem;
+}*/
+main h2~p {
+    background-color: coral;
+}
+
+footer {
+    clear: both;
+}
+footer p {
+    margin-top: 0;
+}

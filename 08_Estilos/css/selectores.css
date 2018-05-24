@@ -1,0 +1,21 @@
+.art1 h3 {
+    color: blue;
+}
+.verde {
+    text-decoration: underline;
+}
+
+h3, .verde {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 900
+}
+h3 {
+    color: blue;
+}
+p.verde {
+    color: lime
+}
+h2.verde {
+    color: darkgreen
+}
