@@ -10,4 +10,8 @@
     - selector de hijo (>)
     - selector de hermanos siguientes (~) (next sibling selector)
     - selector de hermano adyacente (+) (adjacent sibling selector)
-    - selector de atributo []
+- selector de atributo []
+- pseudoclase -> :hover...
+- pseudoelementos -> ::first-letter; ::first-line
+- pseudoelementos con contenido -> ::after; ::before
+- pseudoclases posiciones -> :nth-type-of, 

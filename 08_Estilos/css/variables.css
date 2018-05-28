@@ -1,0 +1,15 @@
+
+:root {
+    --color-fondo: green;
+    --color-texto: azure;
+    --aire-basico: 1rem
+}
+
+header {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+header h1 {
+    padding: calc(var(--aire-basico)*2);
+}
