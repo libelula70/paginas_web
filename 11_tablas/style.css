@@ -2,26 +2,49 @@ th, td {
     padding: 1rem 2rem
 }
 
-th {
+table.medidas th {
     background-color: maroon;
     color: antiquewhite
 }
 
-td {
-    background-color: cadetblue;
+table.destinos th {
+    background-color: maroon;
+    color: antiquewhite
 }
+
+
 
 table.destinos td:after {
     content: "%"
 }
 
 table.destinos tbody tr:nth-of-type(odd) td {
-    background-color: aquamarine
+    background-color: aquamarine;
+    color: darkslategray
 }
 
-table.destinos:hover {
-    border-spacing: 1rem;
+table.destinos tbody tr:nth-of-type(odd) th:not(.destinos) {
+    background-color: aquamarine;
+    color: darkslategray
 }
+
+table.destinos tbody tr:nth-of-type(even) th {
+    background-color: indigo;
+    color: cornsilk
+}
+
+table.destinos tbody tr:nth-of-type(even) td {
+    background-color: indigo;
+    color: cornsilk
+}
+
+/* table.destinos:hover {
+    border-spacing: 1rem;
+} */
+
+/* table.destinos td {
+    background-color: cadetblue;
+} */
 
 table.destinos {
     empty-cells: hide
